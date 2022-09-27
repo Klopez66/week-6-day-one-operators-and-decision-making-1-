@@ -76,6 +76,10 @@ num2 = 5
 my_bool = num1 == num2 
 print(my_bool)
 
+text = "this sentence is short"
+word1 = "is"
+word2 = "this"
+my_bool = ("can" not in text) and ("not" not in text)
 # Comparison Operators Practice #4:
 # Create two variables (num1 and num2):
 
