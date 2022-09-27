@@ -32,17 +32,36 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # == equal
 # != different or not equal to
 
+#learning comparison operators
+my_bool = 10 == 20 #true or false 
+print(my_bool)
+
+
+my_bool = 5 + 5 == 10 -0
+print(my_bool) #true
+
+my_bool = 'white' == 'White'.lower()
+print(my_bool) #true
+
+my_bool = 4 < 5 and 5 > 6
+print(my_bool)
 # Comparison Operators Practice 1:
 # ask the user for their age
 # if the user's  is between 18 - 21 , print they can vote, other wise print better luck next time.
+age = int(input("what is your age?"))
 
-
-
+if age >= 18 and age <= 21:
+  print("you can vote")
+else: 
+  print("better luck next time")
 
 
 # Comparison Operators Practice  2:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
-
+num1 = 36
+num2 = 17
+my_bool = num1 >= num2
+print(my_bool)
 
 
 
@@ -51,7 +70,11 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # Inside num1, store the result of the square root of 25
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
-
+import math 
+num1 = math.sqrt(25)
+num2 = 5
+my_bool = num1 == num2 
+print(my_bool)
 
 # Comparison Operators Practice #4:
 # Create two variables (num1 and num2):
@@ -59,7 +82,8 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # Inside num1, store the result of 64 x 3
 
 # Inside num2, store the result of 24 x 8
-
+num1 = 192
+num2 = 192
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
 
 
@@ -69,6 +93,9 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 
 
 ##############################logical operators##################################################
+#logical operators lesson
+my_bool = (55 == 10) and (5 == 2 *3)
+print(my_bool)
 
 
 # Logical Operators Practice #1
@@ -81,8 +108,10 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # Inside num3, store the value 48
 
 # Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool.
-
-
+num1 = 36
+num2 = 36
+num3 = 48
+my_bool = 
 
 
 # Logical Operators Practice #2
